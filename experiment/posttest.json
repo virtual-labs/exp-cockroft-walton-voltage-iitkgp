@@ -2,36 +2,38 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. A circuit that removes positive or negative parts of a waveform is called a",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Clamper",
+        "b": "Clipper",
+        "c": "Diode clamp",
+        "d": "Limiter"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Voltage multipliers are circuits best used to produce",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Low voltage and low current",
+        "b": "Low voltage and high current",
+        "c": "High voltage and high current",
+        "d": "High voltage and low current"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "dc",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The small load current in Cockroft – Walton circuit means:",
+      "answers": {
+        "a": "Voltage drop is very large",
+        "b": "None of these",
+        "c": "Voltage drop is small",
+        "d": "Can’t predict"
       },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
