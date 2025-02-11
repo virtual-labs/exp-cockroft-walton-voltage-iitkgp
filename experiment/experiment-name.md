@@ -1,1 +1,1 @@
-## Experiment name
+## 3-Stage Cockroft Walton Voltage Multiplier

@@ -2,36 +2,50 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1.  The forward voltage drop across a silicon diode is about ______.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2.5 V",
+        "b": "3 V",
+        "c": "0.7 V",
+        "d": "10 V"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Half wave voltage multiplier can provide any degree of voltage multiplication by cascading",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "only doubler",
+        "b": "only tripler",
+        "c": "any multiplication",
+        "d": "none of the above"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A circuit that adds positive or negative dc voltage to an input sine wave is called",
+      "answers": {
+        "a": "clipper",
+        "b": "diode clamp",
+        "c": "clamper",
+        "d": "limiter"
       },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The use of a capacitor filter in a rectifier circuit gives satisfactory performance only when the load",
+      "answers": {
+        "a": "current is high",
+        "b": "voltage is high",
+        "c": "current is low",
+        "d": "voltage is low"
+      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
