@@ -19,7 +19,8 @@ SrNo | Name | VLabs Developer or Integration Engineer | Designation | Department
 :--|:--|:--|:--|:--|:--|
 1 | **Subir Sekhar** | Developer | Senior Project Assistant | Department of Mechanical Engineering | IIT Kharagpur | 
 2 | **Debasish Das Adhikary** | Developer | Senior Project Assistant | Department of Mechanical Engineering | IIT Kharagpur | 
-3 | **Prakriti Dhang** | Integration | Project Scientist | Department of Mechanical Engineering |IIT Kharagpur | 
+3 | **Piyali Chattopadhyay** | Developer | Research Engineer | Department of Electrical Engineering | IIT Kharagpur |
+4 | **Prakriti Dhang** | Integration | Project Scientist | Department of Mechanical Engineering |IIT Kharagpur | 
 
 
 
