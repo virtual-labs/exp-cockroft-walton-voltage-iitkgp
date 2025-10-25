@@ -1,0 +1,41 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. A circuit that removes positive or negative parts of a waveform is called a",
+      "answers": {
+        "a": "Clamper",
+        "b": "Clipper",
+        "c": "Diode clamp",
+        "d": "Limiter"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Voltage multipliers are circuits best used to produce",
+      "answers": {
+        "a": "Low voltage and low current",
+        "b": "Low voltage and high current",
+        "c": "High voltage and high current",
+        "d": "High voltage and low current"
+      },
+     
+      "correctAnswer": "dc",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The small load current in Cockroft – Walton circuit means:",
+      "answers": {
+        "a": "Voltage drop is very large",
+        "b": "None of these",
+        "c": "Voltage drop is small",
+        "d": "Can’t predict"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

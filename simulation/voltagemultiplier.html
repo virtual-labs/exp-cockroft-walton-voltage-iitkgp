@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Experiment-Voltage Multiplier</title>
+<script language="javascript">AC_FL_RunContent = 0;</script>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+<script src="multiplierJS2.js" language="javascript"></script> 
+<script type="text/javascript" language="javascript" src="sources/jscharts.js"></script>
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 18px;
+	color: #FFFFFF;
+}
+-->
+<!--
+.style6 {
+	font-size: 14px;
+	color:#009900;
+}
+-->
+<!--
+.style5 {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+-->
+<!--
+.style2{color:#009900; font-size:9px;}
+-->
+<!--
+.style3{color:#009900; font-size:9px;}
+-->
+.hide{visibility:hidden;}
+body{color:#FFFFFF; font-size:16px; font-weight:bold;}
+.style4 {color: #009900;}
+</style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFWKNJWKPZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NFWKNJWKPZ');
+</script>
+<body bgcolor="#330000" text="#000000">
+<div align="right"><a href="http://vlabs.iitkgp.ernet.in/vhv/" title="click to go to home page" target="_self"><span class="style4">Home</span></a><br />
+</div>
+<div align="center" class="style1" id="div1">
+  <h3><big>Voltage Multiplier<br /></big>(3 Stages)</h3>
+</div>
+<div id="divmult">
+  <table align="center" width="1122" border="1">
+    <tr><td colspan="3">
+    <table>
+      <tr>
+	<td class="hide" width="149" height="50" valign="top" id="td1">Enter Frequency <br />
+    <input type="text" name="txtfreq" id="txtfreq" size="6" />Hz<br /><div id="divtxtfreq"></div></td>
+    <td width="178" class="hide" height="50" valign="top" id="td2">Enter Stage Capacitance <br />
+    <input type="text" name="txtcap" id="txtcap" size="6"/>&micro;F<br /><div id="divtxtcap"></div></td>
+    <td width="162" height="50" class="hide" valign="top" id="td3">Enter Load Current <br />
+    <input type="text" id="txtlodcrnt" size="6"/>&micro;A<br /><div id="divtxtcrnt"></div></td>
+	<td width="126" height="50" valign="top" class="hide" id="td4">Number of Stages <br />
+    <input type="text" id="txtnmbrofstgs" size="6" value="3" readonly="readonly"/></td>
+    <td width="124" class="hide" height="50" valign="top" id="td5">Calculated Ripple <br />
+    <input type="text" id="txtriple" size="6"/>V</td>
+    <td width="117" height="50" valign="top" class="hide" id="td6">Calculated Drop <br /> 
+    <input type="text" id="txtdrop" size="6"/>V<br /></td>
+    <td width="163" height="50" align="center" valign="middle" id="td7"><div id="divbtncalc"><input type="button" id="btncalc" class="hide" value="Calculate Drop and Ripple" onclick="calcrippledrop()" /></div></td>
+  <td width="57" height="50" align="center" valign="middle" id="td8"><input type="button" id="btnrestart" class="hide" value="Restart" onclick="reload1()" /></td>
+    </tr>
+    </table></td></tr>
+    <tr><td colspan="2" align="center" height="15"><div id="divtxtmsg"></div></td></tr>
+    <tr>
+      <td width="815"> <table><tr><td width="712" align="center" valign="top"><script language="javascript">
+	if (AC_FL_RunContent == 0) {
+		alert("This page requires AC_RunActiveContent.js.");
+	} else {
+		AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0','width','700','height','700','id','multiplier3','align','middle','menu','false','src','multiplier3','quality','high','bgcolor','#330000','name','multiplier3','allowscriptaccess','sameDomain','allowfullscreen','false','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','multiplier3' ); //end AC code
+	}
+</script>
+<noscript>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="700" height="700" id="multiplier3" align="middle">
+    <param name="menu" value="false" />
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="multiplier3.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#330000" />	<embed src="multiplier3.swf" quality="high" bgcolor="#330000" width="700" height="700" name="multiplier3" align="middle" allowScriptAccess="sameDomain" menu= "false" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+</noscript>
+<br /></td></tr>
+        <tr><td align="center"><div id="divbtndisplayflsh"></div></td></tr></table></td>
+      <td width="291" align="left" valign="top">
+      <div class="hide" id="divtxtrange">Range for Input parameters:<br />
+		Current(I):0.1&micro;A-100&micro;A<br />
+		Frequency(f):50Hz-5000Hz<br />
+		Stage Capacitance(C):0.1&micro;F-2&micro;F<br />
+  	  </div> 
+<div><select class="hide" id="varyparamsel" onchange="paramdisable()"><option></option><option>Vary Current</option>
+  <option>Vary Frequency</option><option>Vary Stage Capacitance</option></select>
+  <input class="hide" type="button" value="choose parameter to vary" id="varyparambtn" onclick="chooseparam()" /></div>
+  <div id="graphdiv"></div>
+  <div align="justify" id="txtdiv"></div>
+  <div>
+  <select class="hide" id="currentsel"><option></option></select><select class="hide" id="ripplesel1"><option></option></select><select class="hide" id="dropsel1"><option></option></select><br />
+  <select class="hide" id="freqsel"><option></option></select><select class="hide" id="ripplesel2"><option></option></select><select class="hide" id="dropsel2"><option></option></select><br />
+  <select class="hide" id="cap1sel"><option></option></select><select class="hide" id="ripplesel3"><option></option></select><select class="hide" id="dropsel3"><option></option></select><br />
+  <select class="hide" id="cap2sel"><option></option></select><select class="hide" id="ripplesel4"><option></option></select><br />
+  </div>
+  </td>
+    </tr>
+    <tr><td colspan="2"><div id="canvas"></div></td></tr>
+  </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.  The forward voltage drop across a silicon diode is about ______.",
+      "answers": {
+        "a": "2.5 V",
+        "b": "3 V",
+        "c": "0.7 V",
+        "d": "10 V"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Half wave voltage multiplier can provide any degree of voltage multiplication by cascading",
+      "answers": {
+        "a": "only doubler",
+        "b": "only tripler",
+        "c": "any multiplication",
+        "d": "none of the above"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A circuit that adds positive or negative dc voltage to an input sine wave is called",
+      "answers": {
+        "a": "clipper",
+        "b": "diode clamp",
+        "c": "clamper",
+        "d": "limiter"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The use of a capacitor filter in a rectifier circuit gives satisfactory performance only when the load",
+      "answers": {
+        "a": "current is high",
+        "b": "voltage is high",
+        "c": "current is low",
+        "d": "voltage is low"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+
+/home/runner/work/exp-cockroft-walton-voltage-iitkgp/exp-cockroft-walton-voltage-iitkgp/experiment/simulation/AC_RunActiveContent.js
+   13:6   warning  'e' is defined but never used                               no-unused-vars
+   19:13  warning  'ActiveXObject' is not defined                              no-undef
+   21:14  warning  Empty block statement                                       no-empty
+   28:14  warning  'ActiveXObject' is not defined                              no-undef
+   43:15  warning  Empty block statement                                       no-empty
+   51:14  warning  'ActiveXObject' is not defined                              no-undef
+   53:15  warning  Empty block statement                                       no-empty
+   61:14  warning  'ActiveXObject' is not defined                              no-undef
+   63:15  warning  Empty block statement                                       no-empty
+   71:14  warning  'ActiveXObject' is not defined                              no-undef
+  106:8   warning  'flashVer' is already defined                               no-redeclare
+  122:10  warning  'DetectFlashVer' is defined but never used                  no-unused-vars
+  124:2   warning  'versionStr' is not defined                                 no-undef
+  125:6   warning  'versionStr' is not defined                                 no-undef
+  127:13  warning  'versionStr' is not defined                                 no-undef
+  130:4   warning  'tempArray' is not defined                                  no-undef
+  130:24  warning  'versionStr' is not defined                                 no-undef
+  131:4   warning  'tempString' is not defined                                 no-undef
+  131:24  warning  'tempArray' is not defined                                  no-undef
+  132:4   warning  'versionArray' is not defined                               no-undef
+  132:24  warning  'tempString' is not defined                                 no-undef
+  134:4   warning  'versionArray' is not defined                               no-undef
+  134:24  warning  'versionStr' is not defined                                 no-undef
+  136:27  warning  'versionArray' is not defined                               no-undef
+  137:27  warning  'versionArray' is not defined                               no-undef
+  138:27  warning  'versionArray' is not defined                               no-undef
+  140:8   warning  Mixed spaces and tabs                                       no-mixed-spaces-and-tabs
+  174:14  warning  'i' is already defined                                      no-redeclare
+  183:14  warning  'i' is already defined                                      no-redeclare
+  193:10  warning  'AC_FL_RunContent' is defined but never used                no-unused-vars
+  196:5   warning  Unexpected newline between function and ( of function call  no-unexpected-multiline
+  202:10  warning  'AC_SW_RunContent' is defined but never used                no-unused-vars
+  205:5   warning  Unexpected newline between function and ( of function call  no-unexpected-multiline
+
+/home/runner/work/exp-cockroft-walton-voltage-iitkgp/exp-cockroft-walton-voltage-iitkgp/experiment/simulation/multiplierJS2.js
+  276:1  error  Parsing error: Unexpected token <
+
+/home/runner/work/exp-cockroft-walton-voltage-iitkgp/exp-cockroft-walton-voltage-iitkgp/experiment/simulation/sources/AC_RunActiveContent.js
+   13:6   warning  'e' is defined but never used                               no-unused-vars
+   19:13  warning  'ActiveXObject' is not defined                              no-undef
+   21:14  warning  Empty block statement                                       no-empty
+   28:14  warning  'ActiveXObject' is not defined                              no-undef
+   43:15  warning  Empty block statement                                       no-empty
+   51:14  warning  'ActiveXObject' is not defined                              no-undef
+   53:15  warning  Empty block statement                                       no-empty
+   61:14  warning  'ActiveXObject' is not defined                              no-undef
+   63:15  warning  Empty block statement                                       no-empty
+   71:14  warning  'ActiveXObject' is not defined                              no-undef
+  106:8   warning  'flashVer' is already defined                               no-redeclare
+  122:10  warning  'DetectFlashVer' is defined but never used                  no-unused-vars
+  124:2   warning  'versionStr' is not defined                                 no-undef
+  125:6   warning  'versionStr' is not defined                                 no-undef
+  127:13  warning  'versionStr' is not defined                                 no-undef
+  130:4   warning  'tempArray' is not defined                                  no-undef
+  130:24  warning  'versionStr' is not defined                                 no-undef
+  131:4   warning  'tempString' is not defined                                 no-undef
+  131:24  warning  'tempArray' is not defined                                  no-undef
+  132:4   warning  'versionArray' is not defined                               no-undef
+  132:24  warning  'tempString' is not defined                                 no-undef
+  134:4   warning  'versionArray' is not defined                               no-undef
+  134:24  warning  'versionStr' is not defined                                 no-undef
+  136:27  warning  'versionArray' is not defined                               no-undef
+  137:27  warning  'versionArray' is not defined                               no-undef
+  138:27  warning  'versionArray' is not defined                               no-undef
+  140:8   warning  Mixed spaces and tabs                                       no-mixed-spaces-and-tabs
+  174:14  warning  'i' is already defined                                      no-redeclare
+  183:14  warning  'i' is already defined                                      no-redeclare
+  193:10  warning  'AC_FL_RunContent' is defined but never used                no-unused-vars
+  196:5   warning  Unexpected newline between function and ( of function call  no-unexpected-multiline
+  202:10  warning  'AC_SW_RunContent' is defined but never used                no-unused-vars
+  205:5   warning  Unexpected newline between function and ( of function call  no-unexpected-multiline
+
+/home/runner/work/exp-cockroft-walton-voltage-iitkgp/exp-cockroft-walton-voltage-iitkgp/experiment/simulation/sources/jscharts.js
+  16:247  warning  Unnecessary semicolon  no-extra-semi
+
+✖ 68 problems (1 error, 67 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
